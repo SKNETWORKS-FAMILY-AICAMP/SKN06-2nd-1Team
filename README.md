@@ -44,7 +44,7 @@
 ![Python](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white) 
 ![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![Pytorch](https://img.shields.io/badge/pytorch-EE4C2C?style=for-the-badge&logo=streamlit&logoColor=white) 
-![Scikit-Learn](https://img.shields.io/badge/scikit-learn-F7931E?style=for-the-badge&logo=streamlit&logoColor=white) 
+![Scikit Learn](https://img.shields.io/badge/scikit-learn-F7931E?style=for-the-badge&logo=streamlit&logoColor=white) 
 ![Streamlit](https://img.shields.io/badge/streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white) 
 
 </br>
