@@ -1,7 +1,7 @@
 # SKN06-2nd-1Team
 ## 2차 단위 프로젝트 - 고객 이탈 예측 모델 / Customer Churn  </br>
-###조장 - :crown: 장예린 :crown: </br>
-###팀원 - 고성주, 박창규 </br>
+조장 - :crown: 장예린 :crown: </br>
+팀원 - 고성주, 박창규 </br>
 
 ## 1조
 ###
