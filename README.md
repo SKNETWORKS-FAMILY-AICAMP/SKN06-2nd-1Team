@@ -167,8 +167,9 @@ streamlit==1.39.0
 >   ![image](https://github.com/user-attachments/assets/25533775-0d44-4299-bb0a-e6b1c8ba010f) </br>
 
 > - 모델 학습 결과</br>
->
-> ![스크린샷 2024-11-14 123131](https://github.com/user-attachments/assets/5ec3e97b-c42c-4f3c-bac1-ac5358456b84)</br>
+> ![스크린샷 2024-11-14 163510](https://github.com/user-attachments/assets/f7bc07ea-4d68-4126-941d-f4884bfd866a)
+
+> </br>
 
 
 
