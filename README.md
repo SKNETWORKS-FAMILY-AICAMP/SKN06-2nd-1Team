@@ -19,21 +19,27 @@
 </br>
 
 ### ✔️ 프로젝트 개요
-
 </br>
 
 </br>
 
 
-### ✔️ 제공 자료
-1. --
-> --
+### ✔️ 제공 데이터
+gym_churn_us.csv : 캐글 자료 / 헬스장 (GYM) 이탈 데이터 </br>
+> gender : 성별 (여자 0 / 남자 1) </br>
+> Near_Location : 거리 (가깝다 0 / 멀다 1) </br>
+> Partner : 회사지원 여부 (개인 0 / 회사지원 1) </br>
+> Promo_friends : 지인소개 여부 (없음 0 / 지인소개 1) </br>
+> Phone : 연락처 보유 (없음 0 / 보유 1) </br>
+> Contract_period : 계약 기간 (int) </br>
+> Group_visits : 그룹세션 (No 0 / Yes 1) </br>
+> Age : 나이 (int) </br>
+> Avg_additional_charges_total : 추가사용료 평균 (float) </br>
+> Month_to_end_contract : 남은 계약 기간 (int) </br>
+> Lifetime : 총 이용기간 (int) </br>
+> Avg_class_frequency_total : 평균 수업 참가 (float) </br>
+> Avg_class_frequency_current_month : 이달 평균 수업 참가 (float) </br>
 
-2. --
-> --
-
-3. --
-> --
 
 </br>
 
