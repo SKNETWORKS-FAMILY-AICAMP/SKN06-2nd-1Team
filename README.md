@@ -40,6 +40,8 @@
 
 ### ✔️ Stacks
 ![Discord](https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)    
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white)
+![Github](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white)
 
 ![Python](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white) 
 ![Jupyter](https://img.shields.io/badge/jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white) 
@@ -49,38 +51,43 @@
 ![Scikit-Learn](https://img.shields.io/badge/scikitlearn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white) 
 ![Streamlit](https://img.shields.io/badge/streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white) 
 
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white)
-![Github](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white)
-
 
 
 ### ✔️ Requirements
 
-streamlit == 1.39.0
+jupyterlab==4.2.5
 </br>
-pandas == 2.2.3
+pandas==2.2.3
 </br>
-matplotlib == 3.9.2
+torch==2.5.1
 </br>
-seaborn == 0.13.2
+scikit-learn==1.5.2
+</br>
+xgboost==2.1.2
+</br>
+matplotlib==3.9.2
+</br>
+seaborn==0.13.2
+</br>
+streamlit==1.39.0
 </br>
 
 
 ### ✔️ 폴더트리
 ```
 프로젝트
-|-- 1.  
+|-- Data 
 |    |-- 
 |    |-- 
 |    |-- 
 | 
-|-- 2.
+|-- Models
 |    |-- 
 |    |-- 
 |    |-- 
 | 
-|-- 3. 
-|
+|-- 
+|--
 |-- readme.md : readme 파일
 |-- requirements.txt : 설치 모듈 리스트
 
