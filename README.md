@@ -94,7 +94,7 @@ streamlit==1.39.0
 
 ```
 
-### ✔️ 데이터 전처
+### ✔️ 데이터 전처리 
 ❗️ EDA ❗️</br>
 </br>
 --
@@ -125,7 +125,7 @@ streamlit==1.39.0
 
 ### ✔️ 모델학습
 
-1. Machine Learning
+❗️ Machine Learning❗️ </br>
    Gradient Boosting / Random Forset / KNN / XGBoosting 으로 베이스라인 모델 학습
    > ![image](https://github.com/user-attachments/assets/7a35034b-ba86-493c-a8ec-f6a2a68f1b50)
 
@@ -143,7 +143,7 @@ streamlit==1.39.0
 
 
 
-2. Deep Learning
+❗️ Deep Learning❗️ </br>
    > --
    > --
    > 
