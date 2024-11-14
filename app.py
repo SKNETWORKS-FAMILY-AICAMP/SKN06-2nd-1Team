@@ -11,7 +11,7 @@ image_1 = Image.open(image_path_1)
 image_2 = Image.open(image_path_2)
 image_3 = Image.open(image_path_3)
 
-st.title('헬스장 계약 종료 예측')
+st.title(':muscle: 헬스장 계약 종료 예측 :running:')
 st.sidebar.header('입력 정보')
 st.divider()
 
@@ -28,19 +28,20 @@ try:
     avg_additional_charges_total = float(avg_additional_charges_total)
 except ValueError:
     st.sidebar.error("유효한 숫자를 입력하세요.")
-month_to_end_contract = st.sidebar.selectbox('계약 종료 월', options=range(1,13))
+# month_to_end_contract = st.sidebar.selectbox('계약 종료 월', options=range(1,13))
 lifetime = st.sidebar.number_input('(월기준)다닌날', min_value=0, value=0)
 avg_class_frequency_total = st.sidebar.text_input('월 평균 수업 참여 횟수', value="0.0")
 try:
     avg_class_frequency_total = float(avg_class_frequency_total)
 except ValueError:
     st.sidebar.error("유효한 숫자를 입력하세요.")
-avg_class_frequency_current_month = st.sidebar.text_input('이번달 수업 참가 횟수', value="0.0")
-try:
-    avg_class_frequency_current_month = float(avg_class_frequency_current_month)
-except ValueError:
-    st.sidebar.error("유효한 숫자를 입력하세요.")
-
+# avg_class_frequency_current_month = st.sidebar.text_input('이번달 수업 참가 횟수', value="0.0")
+# try:
+#     avg_class_frequency_current_month = float(avg_class_frequency_current_month)
+# except ValueError:
+#     st.sidebar.error("유효한 숫자를 입력하세요.")
+# month_to_end_contract=contract_period
+# avg_class_frequency_current_month=avg_class_frequency_total
 input_data = np.array([[
     gender,
     near_Location,
@@ -50,10 +51,10 @@ input_data = np.array([[
     Group_visits,
     age,
     avg_additional_charges_total,
-    month_to_end_contract,
+    # month_to_end_contract,
     lifetime,
     avg_class_frequency_total,
-    avg_class_frequency_current_month,
+    # avg_class_frequency_current_month,
     ]])
 
 deep_button = st.sidebar.button("딥러닝 모델로 예측")
