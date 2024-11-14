@@ -121,10 +121,9 @@ streamlit==1.39.0
 > - 이탈값에 따른 숫자형 변수 그래프
 >   
 > ![image](https://github.com/user-attachments/assets/e4867480-1e5c-4d97-85a5-574d45f9f2de)
-
 >
 > 
-> - 이상치 확인: 이상치 않음
+> - 이상치 확인: 이상치 없음
 
 
 > -  모든 변수들의 상관관계
