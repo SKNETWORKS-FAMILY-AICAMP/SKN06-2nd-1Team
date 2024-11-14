@@ -124,6 +124,12 @@ streamlit==1.39.0
 > ![image](https://github.com/user-attachments/assets/8f6c5af3-b994-46e0-9a4a-6044f3969363)
 
 
+> 결측치 확인 :  결측치 없음 
+> 
+> ![스크린샷 2024-11-14 150900](https://github.com/user-attachments/assets/390899e5-f850-4f24-a522-a999207884f3)
+
+
+
 </br>
  
 ### ✔️ 모델학습
