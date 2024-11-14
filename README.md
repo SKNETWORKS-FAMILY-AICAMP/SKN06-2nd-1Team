@@ -104,6 +104,7 @@ streamlit==1.39.0
 > ![image](https://github.com/user-attachments/assets/d8c2914d-ea58-4a19-b164-7fa775dfa032)
  모든 변수들의 상관관계
 > ![image](https://github.com/user-attachments/assets/8f6c5af3-b994-46e0-9a4a-6044f3969363)
+
  이탈값과 다른 변수들의 상관관계
 </br>
  
@@ -122,8 +123,11 @@ streamlit==1.39.0
 </br>
 ❗️ Deep Learning❗️ </br>
     최적 파라미터 사용을 위한 dropout 및 ealry stopping 사용한 모델 학습 결과
+> ![스크린샷 2024-11-14 124753](https://github.com/user-attachments/assets/b1926688-cdbe-48e0-8a8e-fe1186b7e872)
+
 |-- Deep_Learning.i과
-> 
+> ![스크린샷 2024-11-14 123131](https://github.com/user-attachments/assets/5ec3e97b-c42c-4f3c-bac1-ac5358456b84)
+
 
 
 
