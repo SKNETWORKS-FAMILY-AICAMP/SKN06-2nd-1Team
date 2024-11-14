@@ -90,6 +90,10 @@ seaborn == 0.13.2
 ❗️ EDA ❗️</br>
 </br>
 --
+>![image](https://github.com/user-attachments/assets/4473425c-5814-4f14-a459-c92718a4d115)
+
+ 전체 데이터 중 이탈값의 분포
+
 > ![image](https://github.com/user-attachments/assets/aaee7505-cd6f-4823-a096-cc4ef2b1dd3b)
 
  이탈값에 따른 범주형 변수 그래프
