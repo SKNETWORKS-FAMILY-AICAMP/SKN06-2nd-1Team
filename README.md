@@ -100,18 +100,27 @@ streamlit==1.39.0
 ### ✔️ 데이터 전처리 
 ❗️ EDA ❗️</br>
 </br>
---
->![image](https://github.com/user-attachments/assets/9d30fe05-9959-4c33-9088-2ad49246b116)
- 전체 데이터 중 이탈값의 분포
+> - 전체 데이터 중 이탈값의 분포
+>
+> ![image](https://github.com/user-attachments/assets/9d30fe05-9959-4c33-9088-2ad49246b116)
+>
+>  - 이탈값에 따른 범주형 변수 그래프
+>    
 > ![image](https://github.com/user-attachments/assets/aaee7505-cd6f-4823-a096-cc4ef2b1dd3b)
- 이탈값에 따른 범주형 변수 그래프
+>
+> - 이탈값에 따른 숫자형 변수 그래프
+>   
 > ![image](https://github.com/user-attachments/assets/1ffb4f9a-4908-4bc8-ba6a-e7fa52f6039d)
- 이탈값에 따른 숫자형 변수 그래프
+>
+> -  모든 변수들의 상관관계
+>   
 > ![image](https://github.com/user-attachments/assets/d8c2914d-ea58-4a19-b164-7fa775dfa032)
- 모든 변수들의 상관관계
+>
+> - 이탈값과 다른 변수들의 상관관계
+>   
 > ![image](https://github.com/user-attachments/assets/8f6c5af3-b994-46e0-9a4a-6044f3969363)
 
- 이탈값과 다른 변수들의 상관관계
+
 </br>
  
 ### ✔️ 모델학습
@@ -128,11 +137,12 @@ streamlit==1.39.0
    > ![image](https://github.com/user-attachments/assets/6a2fa6ba-4732-4c8d-9d13-b73b21fa1695)
 </br>
 ❗️ Deep Learning❗️ </br>
-    최적 파라미터 사용을 위한 dropout 및 ealry stopping 사용
->
+> - 최적 파라미터 사용을 위한 dropout 및 ealry stopping 사용
+>   
+> 
 
+> - 모델 학습 결과
 
-|-- 모델 학습 결과
 > ![스크린샷 2024-11-14 123131](https://github.com/user-attachments/assets/5ec3e97b-c42c-4f3c-bac1-ac5358456b84)
 
 
