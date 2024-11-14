@@ -146,18 +146,18 @@ streamlit==1.39.0
 ### ✔️ 모델학습
 ❗️ Machine Learning❗️ </br>
    Gradient Boosting / Random Forset / KNN / XGBoosting 으로 베이스라인 모델 학습</br>
-   > ![image](https://github.com/user-attachments/assets/b7dc110c-c2ca-4e16-96b1-10b11b526d51)</br>
+   ![image](https://github.com/user-attachments/assets/b7dc110c-c2ca-4e16-96b1-10b11b526d51)</br>
    </br>
    가장 낮은 KNN 제외 3개 모델로 Grid 또는 Randomized Search 진행</br>
-   > ![image](https://github.com/user-attachments/assets/d1c369e9-f9b7-418c-9d54-4a0f67ca3099)</br>
+   ![image](https://github.com/user-attachments/assets/d1c369e9-f9b7-418c-9d54-4a0f67ca3099)</br>
    </br>
-   > ![image](https://github.com/user-attachments/assets/fa29924a-7bf1-49a1-9acc-5e4da3a3e220)</br>
+   ![image](https://github.com/user-attachments/assets/fa29924a-7bf1-49a1-9acc-5e4da3a3e220)</br>
    </br>
-   > ![image](https://github.com/user-attachments/assets/28f1c1f2-bab1-47e0-bec8-dedf081af6a8)</br>
+   ![image](https://github.com/user-attachments/assets/28f1c1f2-bab1-47e0-bec8-dedf081af6a8)</br>
    </br>
 
    Lifetime, Contract Period 순으로 이탈 확률에 많은 영향을 끼치고 있음</br>
-   > ![image](https://github.com/user-attachments/assets/c7ad1644-b927-4b07-8fa2-f2d16dc80828)</br>
+   ![image](https://github.com/user-attachments/assets/c7ad1644-b927-4b07-8fa2-f2d16dc80828)</br>
    </br></br>
 
 ❗️ Deep Learning❗️ </br>
