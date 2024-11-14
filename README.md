@@ -103,6 +103,13 @@ streamlit==1.39.0
 ### ✔️ 데이터 전처리 
 ❗️ EDA ❗️</br>
 </br>
+
+> - 결측치 확인 :  결측치 없음 
+> 
+> ![스크린샷 2024-11-14 150900](https://github.com/user-attachments/assets/390899e5-f850-4f24-a522-a999207884f3)
+
+
+
 > - 전체 데이터 중 이탈값의 분포
 >
 > ![image](https://github.com/user-attachments/assets/9d30fe05-9959-4c33-9088-2ad49246b116)
@@ -115,6 +122,10 @@ streamlit==1.39.0
 >   
 > ![image](https://github.com/user-attachments/assets/1ffb4f9a-4908-4bc8-ba6a-e7fa52f6039d)
 >
+> 
+> - 이상치도 존재하지 않음
+
+
 > -  모든 변수들의 상관관계
 >   
 > ![image](https://github.com/user-attachments/assets/d8c2914d-ea58-4a19-b164-7fa775dfa032)
@@ -124,9 +135,7 @@ streamlit==1.39.0
 > ![image](https://github.com/user-attachments/assets/8f6c5af3-b994-46e0-9a4a-6044f3969363)
 
 
-> 결측치 확인 :  결측치 없음 
-> 
-> ![스크린샷 2024-11-14 150900](https://github.com/user-attachments/assets/390899e5-f850-4f24-a522-a999207884f3)
+
 
 
 
