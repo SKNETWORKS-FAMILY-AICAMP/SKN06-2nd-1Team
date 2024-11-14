@@ -130,6 +130,9 @@ streamlit==1.39.0
 >   
 > ![image](https://github.com/user-attachments/assets/d8c2914d-ea58-4a19-b164-7fa775dfa032)
 >
+> - 상관관계가 높은 변수는 서로 중복된 정보를 제공한다
+> - 그에 따라 [(Avg_class_frequency_total,Avg_class_frequency_current_month),(Avg_class_frequency_current_month,Month_to_end_contract)] 중 </br> [Avg_class_frequency_total,Avg_class_frequency_current_month)만 사용하는걸로 결정함
+> 
 > - 이탈값과 다른 변수들의 상관관계
 >   
 > ![image](https://github.com/user-attachments/assets/8f6c5af3-b994-46e0-9a4a-6044f3969363)
@@ -160,7 +163,7 @@ streamlit==1.39.0
 ❗️ Deep Learning❗️ </br>
 
 > - 최적 파라미터 사용을 위한 dropout 및 ealry stopping 사용 </br>
-
+>
 >   ![image](https://github.com/user-attachments/assets/4d64e529-36d3-43e8-8560-a0a94875ccd3) </br>
 >
 >
