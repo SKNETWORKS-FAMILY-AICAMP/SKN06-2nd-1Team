@@ -90,10 +90,11 @@ seaborn == 0.13.2
 ❗️ EDA ❗️</br>
 </br>
 --
-> ![image](https://github.com/user-attachments/assets/de46f524-ef20-4146-8338-fe863dad33b9)
+> ![image](https://github.com/user-attachments/assets/aaee7505-cd6f-4823-a096-cc4ef2b1dd3b)
+
  이탈값에 따른 범주형 변수 그래프
 
-> ![image](https://github.com/user-attachments/assets/46f29227-ff5b-4606-a118-6304ba5a8e22)
+> ![image](https://github.com/user-attachments/assets/1ffb4f9a-4908-4bc8-ba6a-e7fa52f6039d)
  이탈값에 따른 숫자형 변수 그래프
 
 > ![image](https://github.com/user-attachments/assets/d8c2914d-ea58-4a19-b164-7fa775dfa032)
