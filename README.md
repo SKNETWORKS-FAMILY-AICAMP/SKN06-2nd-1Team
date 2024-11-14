@@ -90,7 +90,7 @@ seaborn == 0.13.2
 ❗️ EDA ❗️</br>
 </br>
 --
->![image](https://github.com/user-attachments/assets/4473425c-5814-4f14-a459-c92718a4d115)
+>![image](https://github.com/user-attachments/assets/9d30fe05-9959-4c33-9088-2ad49246b116)
 
  전체 데이터 중 이탈값의 분포
 
