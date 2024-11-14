@@ -146,7 +146,8 @@ streamlit==1.39.0
 ❗️ Deep Learning❗️ </br>
     최적 파라미터 사용을 위한 dropout 및 ealry stopping 사용한 모델 학습 결과
     
-    > ![image](https://github.com/user-attachments/assets/25f076f9-5e15-4924-8535-0e720436a5a3)
+    ![image](https://github.com/user-attachments/assets/48d225f4-e76e-4d3c-b9b9-8e82a951dd52)
+
 
    > --
    > 
