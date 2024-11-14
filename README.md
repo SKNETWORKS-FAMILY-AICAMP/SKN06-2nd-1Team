@@ -114,46 +114,32 @@ streamlit==1.39.0
 ❗️ EDA ❗️</br>
 </br>
 
-> - 결측치 확인 :  결측치 없음 (14개 컬럼 / 0 Null)
-> 
-> ![스크린샷 2024-11-14 150900](https://github.com/user-attachments/assets/390899e5-f850-4f24-a522-a999207884f3)
-
-
-
-> - 전체 데이터 중 이탈값의 분포
+> - 결측치 확인 :  결측치 없음 (14개 컬럼 / 0 Null)</br>
+> ![스크린샷 2024-11-14 150900](https://github.com/user-attachments/assets/390899e5-f850-4f24-a522-a999207884f3)</br>
 >
-> ![image](https://github.com/user-attachments/assets/9d30fe05-9959-4c33-9088-2ad49246b116)
+> - 전체 데이터 중 이탈값의 분포</br>
+> ![image](https://github.com/user-attachments/assets/9d30fe05-9959-4c33-9088-2ad49246b116)</br>
 >
->  - 이탈값에 따른 범주형 변수 그래프
->    
-> ![image](https://github.com/user-attachments/assets/aaee7505-cd6f-4823-a096-cc4ef2b1dd3b)
+>  - 이탈값에 따른 범주형 변수 그래프</br>
+> ![image](https://github.com/user-attachments/assets/aaee7505-cd6f-4823-a096-cc4ef2b1dd3b)</br>
 >
-> - 이탈값에 따른 숫자형 변수 그래프
->   
-> ![image](https://github.com/user-attachments/assets/e4867480-1e5c-4d97-85a5-574d45f9f2de)
+> - 이탈값에 따른 숫자형 변수 그래프</br>
+> ![image](https://github.com/user-attachments/assets/e4867480-1e5c-4d97-85a5-574d45f9f2de)</br>
+>
+> - 이상치 확인: 이상치 없음</br>
 >
 > 
-> - 이상치 확인: 이상치 없음
-</br>
-</br>
-</br>
-
-> - 모든 변수들의 상관관계
->   
-> ![image](https://github.com/user-attachments/assets/d8c2914d-ea58-4a19-b164-7fa775dfa032)
+> - 모든 변수들의 상관관계</br>
+> ![image](https://github.com/user-attachments/assets/d8c2914d-ea58-4a19-b164-7fa775dfa032)</br>
 >
-> - 상관관계가 높은 변수는 서로 중복된 정보를 제공한다
+> - 상관관계가 높은 변수는 서로 중복된 정보를 제공한다.
 > - 그에 따라 Avg_class_frequency_total, Avg_class_frequency_current_month 중 Avg_class_frequency_total  </br>
 >   Contract_period, Month_to_end_contract 중 Contract_period 만 사용하는걸로 결정
-> </br>
-> </br>
-> - 이탈값과 다른 변수들의 상관관계
->   
-> ![image](https://github.com/user-attachments/assets/8f6c5af3-b994-46e0-9a4a-6044f3969363)
->
+> 
+> - 이탈값과 다른 변수들의 상관관계</br>
+> ![image](https://github.com/user-attachments/assets/8f6c5af3-b994-46e0-9a4a-6044f3969363)</br>
 > - 상관관계가 거의 작고, 등록 시 필수 입력값이 아닌 Phone (연락처 보유 여부)는 제외하고 학습 진행
 > - gender (성별)도 상관관계는 작으나, 실제로는 유의미한 데이터를 제공할 확률이 크기 때문에 포함하여 진행
-
 > - 총 13개의 변수 (churn 제외) 중 10개의 변수를 사용하여 학습 및 예측을 진행
 </br></br>
  
