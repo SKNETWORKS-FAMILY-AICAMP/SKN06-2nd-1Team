@@ -21,9 +21,9 @@
 ### ✔️ 프로젝트 개요
 </br>
 
->  현대인들은 건강과 체형 관리에 대한 관심이 증가하면서 헬스장의 이용이 늘어나고 있지만, 바쁜 일상과 다양한 운동 옵션으로 인해 헬스장에 대한 지속적인 이용이 어려워지고 있습니다.
+>  현대인들은 건강과 체형 관리에 대한 관심이 증가하면서 헬스장의 이용이 늘어나고 있지만, 바쁜 일상과 다양한 운동 옵션으로 인해 헬스장에 대한 지속적인 이용이 어려워지고 있다.
 
->  특히, 헬스장 계약이 6개월 또는 1년 단위로 이루어지는 경우가 많고, 많은 고객들이 재계약을 하지 않거나 중도에 이탈하는 경향을 보입니다. 이는 헬스장 운영에 큰 부담을 주며, 신규 고객 확보와 기존 고객 유지를 위한 전략적인 접근이 필요합니다.
+>  특히, 헬스장 계약이 6개월 또는 1년 단위로 이루어지는 경우가 많고, 많은 고객들이 재계약을 하지 않거나 중도에 이탈하는 경향을 보인다. 이는 헬스장 운영에 큰 부담을 주며, 신규 고객 확보와 기존 고객 유지를 위한 전략적인 접근이 필요하하다.
 </br>
 
 
@@ -124,21 +124,27 @@ streamlit==1.39.0
 >
 > 
 > - 이상치 확인: 이상치 없음
+</br>
+</br>
+</br>
 
-
-> -  모든 변수들의 상관관계
+> - 모든 변수들의 상관관계
 >   
 > ![image](https://github.com/user-attachments/assets/d8c2914d-ea58-4a19-b164-7fa775dfa032)
 >
 > - 상관관계가 높은 변수는 서로 중복된 정보를 제공한다
-> - 그에 따라 [(Avg_class_frequency_total,Avg_class_frequency_current_month),(Avg_class_frequency_current_month,Month_to_end_contract)] 중 </br> [Avg_class_frequency_total,Avg_class_frequency_current_month)만 사용하는걸로 결정함
-> 
+> - 그에 따라 Avg_class_frequency_total, Avg_class_frequency_current_month 중 Avg_class_frequency_total  </br>
+>   Contract_period, Month_to_end_contract 중 Contract_period 만 사용하는걸로 결정
+> </br>
+> </br>
 > - 이탈값과 다른 변수들의 상관관계
 >   
 > ![image](https://github.com/user-attachments/assets/8f6c5af3-b994-46e0-9a4a-6044f3969363)
 >
 > - 상관관계가 거의 작고, 등록 시 필수 입력값이 아닌 Phone (연락처 보유 여부)는 제외하고 학습 진행
 > - gender (성별)도 상관관계는 작으나, 실제로는 유의미한 데이터를 제공할 확률이 크기 때문에 포함하여 진행
+
+> - 총 13개의 변수 (churn 제외) 중 10개의 변수를 사용하여 학습 및 예측을 진행
 
 
 
