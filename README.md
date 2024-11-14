@@ -94,7 +94,7 @@ streamlit==1.39.0
 
 ```
 
-### ✔️ 
+### ✔️ 데이터 전처
 ❗️ EDA ❗️</br>
 </br>
 --
@@ -123,15 +123,33 @@ streamlit==1.39.0
 
  
 
-### ✔️ 
+### ✔️ 모델학습
 
-1. --
-   > --
-   > --
+1. Machine Learning
+   Gradient Boosting / Random Forset / KNN / XGBoosting 으로 베이스라인 모델 학습
+   > ![image](https://github.com/user-attachments/assets/7a35034b-ba86-493c-a8ec-f6a2a68f1b50)
+
+   -> 가장 낮은 KNN 제외 3개 모델로 Grid 또는 Randomized Search 진행
+   >![image](https://github.com/user-attachments/assets/a2ae3675-4336-4fab-8bdb-6265a3f7f5ab)
+
+   > ![image](https://github.com/user-attachments/assets/500b1ecc-4f4a-4ce8-a8ab-91df350e56fd)
+
+   >![image](https://github.com/user-attachments/assets/6aef44de-7cc7-43d1-9c77-10ac884c44d6)
+
+   Lifetime, Contract Period 순으로 이탈 확률에 많은 영향을 끼치고 있음
+   > ![image](https://github.com/user-attachments/assets/6a2fa6ba-4732-4c8d-9d13-b73b21fa1695)
 
 </br>
 
-2. --
+
+
+2. Deep Learning
+   > --
+   > --
+   > 
+</br>
+
+### ✔️ Streamlit
    > --
    > --
    > 
