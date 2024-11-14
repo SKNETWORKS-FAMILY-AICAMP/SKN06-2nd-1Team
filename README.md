@@ -120,7 +120,8 @@ streamlit==1.39.0
 >
 > - 이탈값에 따른 숫자형 변수 그래프
 >   
-> ![image](https://github.com/user-attachments/assets/1ffb4f9a-4908-4bc8-ba6a-e7fa52f6039d)
+> ![image](https://github.com/user-attachments/assets/e4867480-1e5c-4d97-85a5-574d45f9f2de)
+
 >
 > 
 > - 이상치 확인: 이상치 않음
@@ -146,25 +147,29 @@ streamlit==1.39.0
  
 ### ✔️ 모델학습
 ❗️ Machine Learning❗️ </br>
-   Gradient Boosting / Random Forset / KNN / XGBoosting 으로 베이스라인 모델 학습
-   > ![image](https://github.com/user-attachments/assets/7a35034b-ba86-493c-a8ec-f6a2a68f1b50)
-   -> 가장 낮은 KNN 제외 3개 모델로 Grid 또는 Randomized Search 진행
-   >![image](https://github.com/user-attachments/assets/a2ae3675-4336-4fab-8bdb-6265a3f7f5ab)
-   > ![image](https://github.com/user-attachments/assets/500b1ecc-4f4a-4ce8-a8ab-91df350e56fd)
-   >![image](https://github.com/user-attachments/assets/6aef44de-7cc7-43d1-9c77-10ac884c44d6)
+   Gradient Boosting / Random Forset / KNN / XGBoosting 으로 베이스라인 모델 학습</br>
+   > ![image](https://github.com/user-attachments/assets/7a35034b-ba86-493c-a8ec-f6a2a68f1b50)</br>
+   -> 가장 낮은 KNN 제외 3개 모델로 Grid 또는 Randomized Search 진행</br>
+   >![image](https://github.com/user-attachments/assets/a2ae3675-4336-4fab-8bdb-6265a3f7f5ab)</br>
+   > ![image](https://github.com/user-attachments/assets/500b1ecc-4f4a-4ce8-a8ab-91df350e56fd)</br>
+   >![image](https://github.com/user-attachments/assets/6aef44de-7cc7-43d1-9c77-10ac884c44d6)</br>
 > 
-   Lifetime, Contract Period 순으로 이탈 확률에 많은 영향을 끼치고 있음
+   Lifetime, Contract Period 순으로 이탈 확률에 많은 영향을 끼치고 있음</br>
 > 
-   > ![image](https://github.com/user-attachments/assets/6a2fa6ba-4732-4c8d-9d13-b73b21fa1695)
+   > ![image](https://github.com/user-attachments/assets/6a2fa6ba-4732-4c8d-9d13-b73b21fa1695)</br>
 </br>
 ❗️ Deep Learning❗️ </br>
-> - 최적 파라미터 사용을 위한 dropout 및 ealry stopping 사용
->   
-> 
 
-> - 모델 학습 결과
+> - 최적 파라미터 사용을 위한 dropout 및 ealry stopping 사용 </br>
 
-> ![스크린샷 2024-11-14 123131](https://github.com/user-attachments/assets/5ec3e97b-c42c-4f3c-bac1-ac5358456b84)
+>   ![image](https://github.com/user-attachments/assets/4d64e529-36d3-43e8-8560-a0a94875ccd3) </br>
+>
+>
+>   ![image](https://github.com/user-attachments/assets/25533775-0d44-4299-bb0a-e6b1c8ba010f) </br>
+
+> - 모델 학습 결과</br>
+>
+> ![스크린샷 2024-11-14 123131](https://github.com/user-attachments/assets/5ec3e97b-c42c-4f3c-bac1-ac5358456b84)</br>
 
 
 
