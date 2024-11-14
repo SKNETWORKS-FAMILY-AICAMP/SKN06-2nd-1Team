@@ -3,12 +3,12 @@
 조장 - :crown: 장예린 :crown: </br>
 팀원 - 고성주, 박창규 </br>
 
-## 1조
+## 1조 : 사다리
 ###
 | 장예린 | 고성주 | 박창규 |
 | -- | -- | -- |
 | -- | -- | -- |
-| -- | -- | -- |
+| EDA, DL | ML | Streamlit |
 
 </br></br></br>
 
@@ -29,6 +29,38 @@
 
 ### ✔️ 제공 데이터
 gym_churn_us.csv : 캐글 자료 / 헬스장 (GYM) 이탈 데이터 </br>
+13개 컬럼, 4000개 데이터# SKN06-2nd-1Team
+## 2차 단위 프로젝트 - 고객 이탈 예측 모델 / Customer Churn  </br>
+조장 - :crown: 장예린 :crown: </br>
+팀원 - 고성주, 박창규 </br>
+
+## 1조 : 사다리
+###
+| 장예린 | 고성주 | 박창규 |
+| -- | -- | -- |
+| -- | -- | -- |
+| EDA, DL | ML | Streamlit |
+
+</br></br></br>
+
+##  헬스장 (GYM) 이탈 모델
+
+### ✔️ 개발 기간
+2024.11.13 ~ 2024.11.14 (총 2일)
+</br>
+
+### ✔️ 프로젝트 개요
+</br>
+
+>  현대인들은 건강과 체형 관리에 대한 관심이 증가하면서 헬스장의 이용이 늘어나고 있지만, 바쁜 일상과 다양한 운동 옵션으로 인해 헬스장에 대한 지속적인 이용이 어려워지고 있다.
+
+>  특히, 헬스장 계약이 6개월 또는 1년 단위로 이루어지는 경우가 많고, 많은 고객들이 재계약을 하지 않거나 중도에 이탈하는 경향을 보인다. 이는 헬스장 운영에 큰 부담을 주며, 신규 고객 확보와 기존 고객 유지를 위한 전략적인 접근이 필요하하다.
+</br>
+
+
+### ✔️ 제공 데이터
+gym_churn_us.csv : 캐글 자료 / 헬스장 (GYM) 이탈 데이터 </br>
+14개 컬럼, 4000개 데이터 </br>
 > gender : 성별 (여자 0 / 남자 1) </br>
 > Near_Location : 거리 (가깝다 0 / 멀다 1) </br>
 > Partner : 회사지원 여부 (개인 0 / 회사지원 1) </br>
@@ -93,9 +125,16 @@ streamlit==1.39.0
 |    |-- best_rf.pkl : Machine Learning - RandomForest 모델
 |    |-- best_xgb.pkl : Machine Learning - XGBoosting 모델
 |    |-- dout_model.pt : Deep Learning - Dropout 모델
-| |-- Deep_Learning.ipynb : 딥러닝 진행 파일
+|    |-- scaler.pkl : scaler 모델
+|
+|-- gym_ui
+|    |-- deep_learning.py : streamlit 용 Machine Learning, Deep Learning 모델
+|    |-- model.py : streamlit 용 Dropout 모델
+|
+|-- Deep_Learning.ipynb : 딥러닝 진행 파일
 |-- EDA.ipynb : EDA 진행 파일
 |-- Machine_Learning.ipynb : 머신러닝 진행 파일
+|-- app.py : Streamlit 실행 파일
 |
 |-- readme.md : readme 파일
 |-- requirements.txt : 설치 모듈 리스트
