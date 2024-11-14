@@ -39,7 +39,7 @@
 
 
 ### ✔️ Stacks
-![Discord](https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)    
+![Discord](https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white)
 ![Github](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white)
 
@@ -77,17 +77,18 @@ streamlit==1.39.0
 ```
 프로젝트
 |-- Data 
-|    |-- 
-|    |-- 
-|    |-- 
+|    |-- gym_churn_us.csv : 데이터 파일
 | 
 |-- Models
-|    |-- 
-|    |-- 
-|    |-- 
+|    |-- best_gb.pkl : Machine Learning - Gradient Boosting 모델
+|    |-- best_rf.pkl : Machine Learning - RandomForest 모델
+|    |-- best_xgb.pkl : Machine Learning - XGBoosting 모델
+|    |-- dout_model.pt : Deep Learning - Dropout 모델
 | 
-|-- 
-|--
+|-- Deep_Learning.ipynb : 딥러닝 진행 파일
+|-- EDA.ipynb : EDA 진행 파일
+|-- Machine_Learning.ipynb : 머신러닝 진행 파일
+|
 |-- readme.md : readme 파일
 |-- requirements.txt : 설치 모듈 리스트
 
