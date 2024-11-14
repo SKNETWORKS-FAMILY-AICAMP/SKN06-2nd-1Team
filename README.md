@@ -123,7 +123,7 @@ streamlit==1.39.0
 > ![image](https://github.com/user-attachments/assets/1ffb4f9a-4908-4bc8-ba6a-e7fa52f6039d)
 >
 > 
-> - 이상치도 존재하지 않음
+> - 이상치 확인: 이상치 않음
 
 
 > -  모든 변수들의 상관관계
@@ -133,6 +133,9 @@ streamlit==1.39.0
 > - 이탈값과 다른 변수들의 상관관계
 >   
 > ![image](https://github.com/user-attachments/assets/8f6c5af3-b994-46e0-9a4a-6044f3969363)
+>
+> - 상관관계가 거의 작고, 등록 시 필수 입력값이 아닌 Phone (연락처 보유 여부)는 제외하고 학습 진행
+> - gender (성별)도 상관관계는 작으나, 실제로는 유의미한 데이터를 제공할 확률이 크기 때문에 포함하여 진행
 
 
 
