@@ -143,7 +143,7 @@ streamlit==1.39.0
 ❗️ EDA ❗️</br>
 </br>
 
-> - 결측치 확인 :  결측치 없음 
+> - 결측치 확인 :  결측치 없음 (14개 컬럼 / 0 Null)
 > 
 > ![스크린샷 2024-11-14 150900](https://github.com/user-attachments/assets/390899e5-f850-4f24-a522-a999207884f3)
 
@@ -184,27 +184,25 @@ streamlit==1.39.0
 > - gender (성별)도 상관관계는 작으나, 실제로는 유의미한 데이터를 제공할 확률이 크기 때문에 포함하여 진행
 
 > - 총 13개의 변수 (churn 제외) 중 10개의 변수를 사용하여 학습 및 예측을 진행
-
-
-
-
-
-
-</br>
+</br></br>
  
 ### ✔️ 모델학습
 ❗️ Machine Learning❗️ </br>
    Gradient Boosting / Random Forset / KNN / XGBoosting 으로 베이스라인 모델 학습</br>
-   > ![image](https://github.com/user-attachments/assets/7a35034b-ba86-493c-a8ec-f6a2a68f1b50)</br>
-   -> 가장 낮은 KNN 제외 3개 모델로 Grid 또는 Randomized Search 진행</br>
-   >![image](https://github.com/user-attachments/assets/a2ae3675-4336-4fab-8bdb-6265a3f7f5ab)</br>
-   > ![image](https://github.com/user-attachments/assets/500b1ecc-4f4a-4ce8-a8ab-91df350e56fd)</br>
-   >![image](https://github.com/user-attachments/assets/6aef44de-7cc7-43d1-9c77-10ac884c44d6)</br>
-> 
+   > ![image](https://github.com/user-attachments/assets/b7dc110c-c2ca-4e16-96b1-10b11b526d51)</br>
+   </br>
+   가장 낮은 KNN 제외 3개 모델로 Grid 또는 Randomized Search 진행</br>
+   > ![image](https://github.com/user-attachments/assets/d1c369e9-f9b7-418c-9d54-4a0f67ca3099)</br>
+   </br>
+   > ![image](https://github.com/user-attachments/assets/fa29924a-7bf1-49a1-9acc-5e4da3a3e220)</br>
+   </br>
+   > ![image](https://github.com/user-attachments/assets/28f1c1f2-bab1-47e0-bec8-dedf081af6a8)</br>
+   </br>
+
    Lifetime, Contract Period 순으로 이탈 확률에 많은 영향을 끼치고 있음</br>
-> 
-   > ![image](https://github.com/user-attachments/assets/6a2fa6ba-4732-4c8d-9d13-b73b21fa1695)</br>
-</br>
+   > ![image](https://github.com/user-attachments/assets/c7ad1644-b927-4b07-8fa2-f2d16dc80828)</br>
+   </br></br>
+
 ❗️ Deep Learning❗️ </br>
 
 > - 최적 파라미터 사용을 위한 dropout 및 ealry stopping 사용 </br>
@@ -226,13 +224,13 @@ streamlit==1.39.0
 
    > --
    > 
-</br>
+</br></br>
 
 ### ✔️ Streamlit
    > --
    > --
    > 
-</br>
+</br></br>
 
 
 ### ✔️ 팀원 회고
