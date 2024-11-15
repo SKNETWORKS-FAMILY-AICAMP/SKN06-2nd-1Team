@@ -6,8 +6,8 @@
 ## 1조 : 사다리
 ###
 | 장예린 | 고성주 | 박창규 |
-| -- | -- | -- |
-| -- | -- | -- |
+|:----------:|:----------:|:----------:|
+| <img src="https://github.com/user-attachments/assets/1e75ad5d-9a1d-4314-b9b4-4ffc12e5e441" width="140" height="175" />  | <img src="https://github.com/user-attachments/assets/197ee150-7311-43e4-943e-6237a7151303" width="140" height="175" />  | <img src="https://github.com/user-attachments/assets/262cea2f-713e-4ac2-b07b-d97206846dee" width="140" height="175" /> |
 | EDA, DL | ML | Streamlit |
 
 </br></br></br>
