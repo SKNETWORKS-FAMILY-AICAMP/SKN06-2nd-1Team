@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 from gym_ui.model import DropoutModel
-from gym_ui.deep_learning import deep_learning, machine_learning
+from gym_ui.deep_learning import deep_learning, machine_learning_best_xgb, machine_learning_best_gb ,machine_learning_best_rf
 from PIL import Image
 
 image_path_1 = "image/노이탈(헬스)2.webp"
@@ -16,32 +16,24 @@ st.sidebar.header('입력 정보')
 st.divider()
 
 
-gender = st.sidebar.selectbox('성별', options=[0, 1])
-near_Location = st.sidebar.selectbox('집에서 가까운지', options=[0, 1])
-partner = st.sidebar.selectbox('회사에서 왔는지', options=[0, 1])
-promo_friends = st.sidebar.selectbox('친구 소개로 왔는지 여부', options=[0, 1])
+gender = st.sidebar.selectbox('성별', options=["남자", "여자"])
+near_Location = st.sidebar.selectbox('집 근처 여부', options=["O", "X"])
+partner = st.sidebar.selectbox('회사 소개 여부', options=["O", "X"])
+promo_friends = st.sidebar.selectbox('친구 소개 여부', options=["O", "X"])
 contract_period = st.sidebar.selectbox('계약기간', options=[1, 6, 12])
-Group_visits = st.sidebar.selectbox('단체',  options=[0, 1])
+Group_visits = st.sidebar.selectbox('단체 여부',  options=["O", "X"])
 age = st.sidebar.number_input('나이', min_value=18, max_value=120, value=30)
-avg_additional_charges_total = st.sidebar.text_input('월 평균 추가 비용', value="0.0")
-try:
-    avg_additional_charges_total = float(avg_additional_charges_total)
-except ValueError:
-    st.sidebar.error("유효한 숫자를 입력하세요.")
-# month_to_end_contract = st.sidebar.selectbox('계약 종료 월', options=range(1,13))
+avg_additional_charges_total = st.sidebar.slider('월 평균 추가 비용$', 0.001, 800.00)
+
 lifetime = st.sidebar.number_input('(월기준)다닌날', min_value=0, value=0)
-avg_class_frequency_total = st.sidebar.text_input('월 평균 수업 참여 횟수', value="0.0")
-try:
-    avg_class_frequency_total = float(avg_class_frequency_total)
-except ValueError:
-    st.sidebar.error("유효한 숫자를 입력하세요.")
-# avg_class_frequency_current_month = st.sidebar.text_input('이번달 수업 참가 횟수', value="0.0")
-# try:
-#     avg_class_frequency_current_month = float(avg_class_frequency_current_month)
-# except ValueError:
-#     st.sidebar.error("유효한 숫자를 입력하세요.")
-# month_to_end_contract=contract_period
-# avg_class_frequency_current_month=avg_class_frequency_total
+avg_class_frequency_total = st.sidebar.slider('월 평균 수업 참여 횟수', 0.001, 7.00)
+
+gender = 0 if gender == "남자" else 1
+near_Location = 0 if near_Location == "X" else 1
+partner = 0 if partner == "X" else 1
+promo_friends = 0 if promo_friends == "X" else 1
+Group_visits = 0 if Group_visits == "X" else 1
+
 input_data = np.array([[
     gender,
     near_Location,
@@ -73,9 +65,9 @@ if deep_button:
     with col2:
         st.image(images, width=200)
 if machine_button:
-    result = machine_learning(input_data) 
-    churn_probability = result[1] * 100  
-    isTrue = result[0] >= 0.5
+    xgb = machine_learning_best_xgb(input_data)
+    churn_probability = xgb[1] * 100  
+    isTrue = xgb[0] >= 0.5
     images = image_3 if isTrue else image_1
     col1, col2 = st.columns([2, 1])
     with col1:
