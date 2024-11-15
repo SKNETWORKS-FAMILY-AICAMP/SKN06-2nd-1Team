@@ -30,19 +30,21 @@
 ### ✔️ 제공 데이터
 gym_churn_us.csv : 캐글 자료 / 헬스장 (GYM) 이탈 데이터 </br>
 14개 컬럼, 4000개 데이터 </br>
-> gender : 성별 (여자 0 / 남자 1) </br>
-> Near_Location : 거리 (가깝다 0 / 멀다 1) </br>
-> Partner : 회사지원 여부 (개인 0 / 회사지원 1) </br>
-> Promo_friends : 지인소개 여부 (없음 0 / 지인소개 1) </br>
-> Phone : 연락처 보유 (없음 0 / 보유 1) </br>
-> Contract_period : 계약 기간 (int) </br>
-> Group_visits : 그룹세션 (No 0 / Yes 1) </br>
-> Age : 나이 (int) </br>
-> Avg_additional_charges_total : 추가사용료 평균 (float) </br>
-> Month_to_end_contract : 남은 계약 기간 (int) </br>
-> Lifetime : 총 이용기간 (int) </br>
-> Avg_class_frequency_total : 평균 수업 참가 (float) </br>
-> Avg_class_frequency_current_month : 이달 평균 수업 참가 (float) </br>
+| 변수명                              | 설명                          | 값 또는 자료형         |
+|-------------------------------------|-------------------------------|-----------------------|
+| gender                              | 성별                          | 여자 0 / 남자 1        |
+| Near_Location                       | 거리                          | 가깝다 0 / 멀다 1      |
+| Partner                             | 회사지원 여부                | 개인 0 / 회사지원 1    |
+| Promo_friends                       | 지인소개 여부                | 없음 0 / 지인소개 1    |
+| Phone                               | 연락처 보유 여부            | 없음 0 / 보유 1        |
+| Contract_period                     | 계약 기간                     | int                   |
+| Group_visits                        | 그룹세션 참여 여부          | No 0 / Yes 1          |
+| Age                                 | 나이                          | int                   |
+| Avg_additional_charges_total        | 추가사용료 평균              | float                 |
+| Month_to_end_contract               | 남은 계약 기간               | int                   |
+| Lifetime                            | 총 이용기간                  | int                   |
+| Avg_class_frequency_total           | 평균 수업 참가               | float                 |
+| Avg_class_frequency_current_month   | 이달 평균 수업 참가         | float     
 
 
 </br>
