@@ -41,7 +41,7 @@ gym_churn_us.csv : 캐글 자료 / 헬스장 (GYM) 이탈 데이터 </br>
 | Group_visits                        | 그룹세션 참여 여부          | No 0 / Yes 1          |
 | Age                                 | 나이                          | int                   |
 | Avg_additional_charges_total        | 추가사용료 평균              | float                 |
-| Month_to_end_contract               | 남은 계약 기간               | int                   |
+| Month_to_end_contract               | 남은 계약 기간               | float                   |
 | Lifetime                            | 총 이용기간                  | int                   |
 | Avg_class_frequency_total           | 평균 수업 참가               | float                 |
 | Avg_class_frequency_current_month   | 이달 평균 수업 참가         | float     
@@ -204,8 +204,8 @@ streamlit==1.39.0
 > --
 > 
 고성주
-> --
-> --
+> 제공된 데이터에 결측치나 이상치가 없어서인지, 베이스모델만 돌렸을때도 결과가 너무 좋게 나왔다.
+> 그래서인지, 모델 개선을 위해 많은 고민을 하지 않은듯하여 아쉬움이 남는다. 
 > 
 박창규
 > --
