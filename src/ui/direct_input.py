@@ -31,7 +31,6 @@ def direct_input(deep_learning, machine_learning_best_xgb, image):
         lifetime,
         avg_class_frequency_total,
     ]])
-    # Buttons
     deep_button = st.sidebar.button("딥러닝 모델로 예측")
     machine_button = st.sidebar.button("머신러닝 모델로 예측")
 
@@ -55,9 +54,11 @@ def render_result(churn_probability, image, method):
         result = float(churn_probability[1] * 100)
     col1, col2 = st.columns([2, 1])
     with col1:
-        st.header('예측 결과')
-        st.subheader(f"예측결과: {'이탈' if isTrue else '노이탈'}")
+        st.header('딥러닝 예측 결과' if method == "deep_learning" else '머신러닝 예측 결과')
         st.subheader(f'이탈 확률: {result:.2f}%')
-        st.subheader(f"{'이탈 가능성 높음' if isTrue else '이탈 가능성 낮음'}")
+        st.markdown(
+    f'{("<h1 style=\'color:red; font-size:20px;\'>이탈 가능성 높음</h1>" if isTrue else "<h1 style=\'color:green; font-size:20px;\'>이탈 가능성 낮음</h1>")}',
+    unsafe_allow_html=True
+)
     with col2:
         st.image(images, width=200)

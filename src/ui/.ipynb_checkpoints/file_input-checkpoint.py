@@ -3,19 +3,29 @@ import streamlit as st
 
 def file_input(file_read, deep_learning, machine_learning_best_xgb):
     st.sidebar.header("파일 업로드")
-    uploaded_file = st.sidebar.file_uploader("CSV 파일을 업로드하세요", type="csv")
+    st.sidebar.markdown("### CSV 파일을 업로드하세요 📁")
+    st.sidebar.markdown(
+        """
+        - **여기에 파일을 드래그하거나 업로드 버튼을 클릭하세요.**
+        - 지원 파일 형식: CSV
+        - **업로드 가능한 최대 파일 크기:** 200MB
+        """
+    )
+    uploaded_file = st.sidebar.file_uploader("파일 업로드",type="csv",help="업로드할 CSV 파일을 선택하거나 드래그하여 추가하세요. (최대 200MB)")
     if uploaded_file:
         input_data = file_read(uploaded_file)
         deep_button = st.sidebar.button("딥러닝 모델로 예측")
         machine_button = st.sidebar.button("머신러닝 모델로 예측")
         method = ("deep_learning", "machine_learning")
         if deep_button:
+            methods = method[0]
             st.session_state["predictions"] = display(input_data, deep_learning, method[0])
         if machine_button:
+            methods = method[1]
             st.session_state["predictions"] = display(input_data, machine_learning_best_xgb,method[1])
 
     if "predictions" in st.session_state and st.session_state["predictions"] is not None:
-        pageing(st.session_state["predictions"])
+        pageing(st.session_state["predictions"], methods)
     else:
         st.info("예측 결과가 없습니다. CSV 파일을 업로드하고 예측 버튼을 눌러주세요.")
 
@@ -46,10 +56,8 @@ def display(input_data, predict_function, method):
 
     return pd.DataFrame(answer)
 
-def highlight_high_risk(row):
-    return ['color: red' if "이탈 가능성 높음" == cell else '' for cell in row]
     
-def pageing(df):
+def pageing(df,method):
     
     if df.empty:
         st.warning("예측 결과 데이터가 없습니다.")
@@ -70,6 +78,6 @@ def pageing(df):
     paginated_data = df.iloc[start_idx:end_idx]
 
     # 데이터 출력
-    st.header("예측 결과")
+    st.header('딥러닝 예측 결과' if method == "deep_learning" else '머신러닝 예측 결과')
     st.table(paginated_data)
     st.write(f"페이지 {page_number} / {total_pages}")
