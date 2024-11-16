@@ -191,9 +191,16 @@ streamlit==1.39.0
 </br></br>
 
 ### ✔️ Streamlit
-   > --
-   > --
-   > 
+> -- 직접 입력
+> 
+> <img src="https://github.com/user-attachments/assets/fe2815f4-0d47-4a84-89ef-427dcacc51e4" alt="Main" width="500">
+> <img src="https://github.com/user-attachments/assets/ff89b770-13d6-45c5-8f7b-575801157313" alt="Main2" width="500">
+
+> -- 파일 입력
+> 
+> <img src="https://github.com/user-attachments/assets/e999c55b-31cf-48ec-a1b5-a1f29ebd7489" alt="Main_file" width="500">
+> <img src="https://github.com/user-attachments/assets/03fe21c9-b20c-4c9d-a765-5d0852dbc223" alt="Main_file2" width="500">
+
 </br></br>
 
 
