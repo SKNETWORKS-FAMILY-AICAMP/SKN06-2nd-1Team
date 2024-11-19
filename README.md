@@ -148,23 +148,28 @@ streamlit==1.39.0
 ### ✔️ 모델학습
 ❗️ Machine Learning❗️ </br>
    Gradient Boosting / Random Forset / KNN / XGBoosting 으로 베이스라인 모델 학습</br>
-   ![image](https://github.com/user-attachments/assets/b7dc110c-c2ca-4e16-96b1-10b11b526d51)</br>
+   ![image](https://github.com/user-attachments/assets/36c5893e-c517-48d2-94d9-9fcc5edc6a74)
+</br>
    </br>
    가장 낮은 KNN 제외 3개 모델로 Grid 또는 Randomized Search 진행</br>
    - RandomForest : 42개 조합으로 Grid Search 진행</br>
-   ![image](https://github.com/user-attachments/assets/d1c369e9-f9b7-418c-9d54-4a0f67ca3099)</br>
+![image](https://github.com/user-attachments/assets/297cfd28-d67a-4b43-ae4f-71cad080898f)
+</br>
    </br>
    
    - Gradient Boosting : 600개 조합으로 Randomized Search 진행</br>
-   ![image](https://github.com/user-attachments/assets/fa29924a-7bf1-49a1-9acc-5e4da3a3e220)</br>
+![image](https://github.com/user-attachments/assets/a36771aa-01a0-48f7-ac0e-ed9abe8576a5)
+</br>
    </br>
    
    - XG Boosting : 600개 조합으로 Randomized Search 진행</br>
-   ![image](https://github.com/user-attachments/assets/28f1c1f2-bab1-47e0-bec8-dedf081af6a8)</br>
+![image](https://github.com/user-attachments/assets/68d57dba-b358-4749-9207-04af57e6afef)
+</br>
    </br>
 
    - Lifetime, Contract Period 순으로 이탈 확률에 많은 영향을 끼치고 있음</br>
-   ![image](https://github.com/user-attachments/assets/c7ad1644-b927-4b07-8fa2-f2d16dc80828)</br>
+![image](https://github.com/user-attachments/assets/481e77ee-096a-4395-9073-bcd2f2509bd7)
+</br>
    </br></br>
 
 ❗️ Deep Learning❗️ </br>
