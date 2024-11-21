@@ -98,9 +98,19 @@ streamlit==1.39.0
 |    |-- dout_model.pt : Deep Learning - Dropout 모델
 |    |-- scaler.pkl : scaler 모델
 |
-|-- gym_ui
-|    |-- deep_learning.py : streamlit 용 Machine Learning, Deep Learning 모델
-|    |-- model.py : streamlit 용 Dropout 모델
+|-- src
+|    |-- image
+|    |    |-- 노이탈(헬스).webp : 시각 자료
+|    |    |-- 노이탈(헬스)2.webp : 시각 자료
+|    |    |-- 이탈자(헬스).webp : 시각 자료
+|    |-- models
+|    |    |-- dropout_model.py : Dropout 모델 코드
+|    |-- services
+|    |    |-- deep_learning.py : Deep Learning 서비스 코드
+|    |    |-- machine_learning.py : Machine Learning 서비스 코드
+|    |---utils
+|    |    |-- file_read : csv파일 처리
+|    |    |-- gym_img : 이미지 처리
 |
 |-- Deep_Learning.ipynb : 딥러닝 진행 파일
 |-- EDA.ipynb : EDA 진행 파일
@@ -221,6 +231,6 @@ streamlit==1.39.0
 > 그래서인지, 모델 개선을 위해 많은 고민을 하지 않은듯하여 아쉬움이 남는다. 
 > 
 박창규
-> --
-> --
+> 지식의 부족해 다양한 방법을 시도하지 못한 것이 아쉬웠다.
+> 
 >
