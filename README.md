@@ -108,6 +108,9 @@ streamlit==1.39.0
 |    |-- services
 |    |    |-- deep_learning.py : Deep Learning 서비스 코드
 |    |    |-- machine_learning.py : Machine Learning 서비스 코드
+|    |-- ui
+|    |    |-- direct_input : 직접입력 Streamlit
+|    |    |-- file_input : 파일로 입력 Streamlit 
 |    |---utils
 |    |    |-- file_read : csv파일 처리
 |    |    |-- gym_img : 이미지 처리
