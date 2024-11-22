@@ -6,30 +6,33 @@ def file_input(file_read, deep_learning, machine_learning_best_xgb):
     st.sidebar.markdown("### CSV 파일을 업로드하세요 📁")
     st.sidebar.markdown(
         """
-        - **여기에 파일을 드래그하거나 업로드 버튼을 클릭하세요.**
+        - **업로드 버튼을 클릭하세요.**
         - 지원 파일 형식: CSV
         - **업로드 가능한 최대 파일 크기:** 200MB
         """
     )
-    uploaded_file = st.sidebar.file_uploader("파일 업로드",type="csv",help="업로드할 CSV 파일을 선택하거나 드래그하여 추가하세요. (최대 200MB)")
+    uploaded_file = st.sidebar.file_uploader("파일 업로드", type="csv", help="업로드할 CSV 파일을 선택하거나 드래그하여 추가하세요. (최대 200MB)")
     if uploaded_file:
         input_data = file_read(uploaded_file)
         deep_button = st.sidebar.button("딥러닝 모델로 예측")
         machine_button = st.sidebar.button("머신러닝 모델로 예측")
-        method = ("deep_learning", "machine_learning")
+            
         if deep_button:
-            methods = method[0]
-            st.session_state["predictions"] = display(input_data, deep_learning, method[0])
+            st.session_state["methods"] = "deep_learning"
+            st.session_state["predictions"] = display(input_data, deep_learning, st.session_state["methods"])
         if machine_button:
-            methods = method[1]
-            st.session_state["predictions"] = display(input_data, machine_learning_best_xgb,method[1])
+            st.session_state["methods"] = "machine_learning"
+            st.session_state["predictions"] = display(input_data, machine_learning_best_xgb, st.session_state["methods"])
 
     if "predictions" in st.session_state and st.session_state["predictions"] is not None:
-        pageing(st.session_state["predictions"], methods)
+        if "methods" in st.session_state:
+            pageing(st.session_state["predictions"], st.session_state["methods"])
+        else:
+            st.error("예측 방법이 선택되지 않았습니다. 버튼을 눌러주세요.")
     else:
         st.info("예측 결과가 없습니다. CSV 파일을 업로드하고 예측 버튼을 눌러주세요.")
 
-        
+
 def display(input_data, predict_function, method):
     if method == "deep_learning":
         answer = []
